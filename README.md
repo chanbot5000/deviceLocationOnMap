@@ -1,4 +1,4 @@
-deviceLocationOnMap
+Device Location on Map
 ===================
 
 Simple, bare-bones code for adding a device location to an Android App using the ArcGIS Android SDK
