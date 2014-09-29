@@ -6,7 +6,6 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.os.Bundle;
 
-//import com.esri.android.map.LocationService;
 import com.esri.android.map.LocationDisplayManager;
 import com.esri.android.map.MapView;
 import com.esri.android.map.ags.ArcGISTiledMapServiceLayer;
@@ -35,11 +34,6 @@ public class DeviceLocationOnMapActivity extends Activity {
 					LocationDisplayManager ldm = mMapView.getLocationDisplayManager();
 					ldm.setAutoPanMode(LocationDisplayManager.AutoPanMode.LOCATION);
 					ldm.start();					
-					
-					// ---- Below code is deprecated since 10.2.2
-					//LocationService ls = mMapView.getLocationService();
-					//ls.setAutoPan(false);
-					//ls.start();
 				}
 
 			}
